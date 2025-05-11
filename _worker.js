@@ -18,6 +18,12 @@ const DEFAULT_PATH_MAPPINGS = {
 			'/query-dns': '/dns-query',
 		},
 	},
+	"/quad9": {
+          "targetDomain": "dns.quad9.net",
+          "pathMapping": {
+                "/query-dns": "/dns-query"
+          }
+        },
 	// Add more path mappings as needed
 };
 
